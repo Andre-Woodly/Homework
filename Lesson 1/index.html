@@ -1,27 +1,64 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
+    <!-- кодировка сайта -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Описание страницы -->
-    <meta name="description" content="Мой первый сайт">
-    
-    <!-- Поисковые слова -->
-    <meta name="keywords" content="">
+    <title>HTML Lesson 3</title>
 
-    <title>First lesson</title>
-    <!-- связка с css -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Создает картинку логотипа на вкладке страницы в браузере -->
+    <link rel="shortcut icon" href="/html-logo.svg" type="image/x-icon">
+
+    <style>
+        .brown {
+            background: rgb(114, 97, 97);
+            width: 450px;
+            color: whitesmoke;
+        }
+        .red {
+            background: red;
+            width: 100px;
+            height: 100px;
+        }
+        .purple{
+            background: purple;
+            width: 300px;
+        }
+        .pink{
+            color: pink;
+        }
+        .element {
+            color: white;
+            background: rgb(115, 23, 219);
+        }
+    </style>
+
+
 </head>
 <body>
-    <h1>Hello friends!!!</h1>
-    <h2> Let`s get to work</h2>
-    
-    <!-- Ссылка на кртинку через браузер -->
-    <img src="https://i.pinimg.com/736x/00/a3/d9/00a3d9eef21283e1856a997a5d152bd6.jpg" alt="УУУ МаЙ Гад что-то не так">
-   
-    <!-- Подключение JS -->
-    <script src="script.js"></script>
+    <!-- блочный текст -->
+    <div class="brown"> 
+        Всем привет, сегодня я создаю свой <span class="pink">первый сайт!</span>
+        <div class="red"></div>
+    </div>
+
+    <div class="purple">
+        А здесь у меня какие-то элементы:<br>
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span> <br>
+
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span> <br>
+
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span>
+        <span class="element">Элемент</span> <br>
+    </div>
+
 </body>
 </html>
