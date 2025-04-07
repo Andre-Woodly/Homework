@@ -1,0 +1,25 @@
+header {
+    height: 60px;
+    background: orange;
+}
+
+.list-2 {
+    height: 300px;
+    background: #7B2CDD;
+    color: white;
+}
+
+.white {
+    color: white
+}
+
+.conteiner-q {
+    background: #F6E8CE;
+    margin-bottom: 30px;
+}
+.main-a{
+    color: black;
+}
+h6{
+    font-size: 24px;
+}
