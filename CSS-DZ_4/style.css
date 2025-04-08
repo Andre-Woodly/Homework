@@ -1,0 +1,39 @@
+.open{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.Embed{
+    font-family: "Open Sans", sans-serif;
+    text-decoration: line-through;
+}
+
+.alumn{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 1000;
+    text-align: center;
+    text-transform: uppercase;
+}
+.purple{
+    font-family: "Underdog", system-ui;
+    color: rgb(67, 12, 119);
+    text-align: justify;
+
+    font-size: 20px;
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(67, 12, 119);
+    word-spacing: 30px;
+}
+
+.lain{
+    font-family: "Codystar", sans-serif;
+    letter-spacing: 5px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: black;
+}
