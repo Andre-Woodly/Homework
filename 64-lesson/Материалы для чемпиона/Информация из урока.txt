@@ -1,0 +1,7 @@
+ПОЛЕЗНЫЕ ССЫЛКИ:
+
+https://elements.envato.com/ru/web-templates/site-templates - HTML-шаблоны на Envato
+https://elements.envato.com/ru/steak-in-restaurant-cafe-html5-template-UTHQCJ - HTML-шаблон из урока
+http://7oroof.com/demos/steakin/homepage-11-dark.html - демо HTML-шаблона из урока
+https://tpverstak.ru/common-css-class-names/ - список популярных названий классов
+https://github.com/yoksel/common-words - список популярных названий классов + примеры
