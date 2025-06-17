@@ -15,10 +15,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
     background: #12b912;
-    border-radius: 250px;
+    border-radius: 400px;
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.3),
         /* внешняя тень */
@@ -60,9 +60,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     position: relative;
-    height: 250px;
-    width: 250px;
-    border-radius: 250px;
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
     background: rgba(255, 0, 0, 0.75);
     /* отсутпы */
     padding: 2rem;
@@ -76,7 +76,7 @@
     position: absolute;
     background: rgb(191, 0, 0);
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     left: 47%;
     top: 87%;
     cursor: pointer;
@@ -84,5 +84,5 @@
 
 .window-text {
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
 }
