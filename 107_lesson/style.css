@@ -1,0 +1,81 @@
+.container {
+    margin-left: 30px;
+}
+
+.button-open {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: #12b912;
+    border-radius: 400px;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.3),
+        /* внешняя тень */
+        inset 0 0 20px rgba(255, 255, 255, 0.1);
+    /* внутренняя тень */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+/* ======================= */
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000010c1;
+    /* полупрозрачный черный фон */
+    justify-content: center;
+    align-items: center;
+
+
+
+    /* для перехода */
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    background: rgba(255, 0, 0, 0.75);
+    /* отсутпы */
+    padding: 2rem;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.button-close {
+    position: absolute;
+    background: rgb(191, 0, 0);
+    color: white;
+    font-size: 30px;
+    left: 47%;
+    top: 87%;
+    cursor: pointer;
+}
+
+.window-text {
+    text-align: center;
+    font-size: 30px;
+}
