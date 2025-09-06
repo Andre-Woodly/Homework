@@ -1,0 +1,139 @@
+/* ====Footer================================================================ */
+
+/* height: 300px;
+    background: url("../img/decor/bg-footer.png") 50% 100%/ cover no-repeat; */
+
+
+.footer {
+    background: #AB8261;
+    padding: 60px 0 60px;
+    max-height: 273px;
+    color: #FFF9F4;
+}
+
+.footer-inner {
+    display: grid;
+    gap: 15px;
+    justify-content: space-between;
+    grid-template-columns: .9fr .9fr 1.1fr auto;
+    grid-template-rows: auto auto;
+}
+
+.footer__col:first-child {
+
+    margin-top: -30px;
+}
+
+.footer__col:last-child {
+    justify-items: end;
+}
+
+.footer__logo {
+    display: block;
+    max-width: 240px;
+}
+
+.footer__logo img {
+    width: 100%;
+}
+
+.footer__logo-text {}
+
+.social {
+    line-height: 0;
+}
+
+.social__list {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+.social__link {
+    display: block;
+}
+
+.social__svg {
+    transition: var(--transition);
+}
+
+/* для плавного перехода к svg */
+.social__svg path {
+    transition: var(--transition);
+}
+
+.social__svg:hover path {
+    fill: #FFA55C;
+}
+
+/* для выравния верха, тк мы используем padding сверху 5    */
+.footer__col-list {
+    margin-top: -5px;
+}
+
+.footer__col-item {
+    margin-bottom: 10px;
+}
+
+.footer__col-item:last-child {
+    margin-bottom: 0px;
+}
+
+.footer__col-link {
+    display: inline-block;
+    padding: 5px 0;
+    z-index: 1;
+    position: relative;
+}
+
+.footer__col-link::before {
+    content: "";
+    position: absolute;
+    left: -13px;
+    top: -13px;
+    z-index: -1;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: var(--orange);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.footer__col-link:hover::before {
+    opacity: 1;
+}
+
+.footer__contact-item {
+    margin-bottom: 10px;
+}
+
+.footer__contact-item:last-child {
+    margin-bottom: 0px;
+}
+
+.footer__col-tel {
+    margin-bottom: 47px;
+}
+
+.footer__col-text {
+    margin-left: 10px;
+}
+
+.footer__col-number {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+
+.footer__col-number:hover {
+    color: var(--orange);
+}
+
+.footer__col-copy {
+    color: #DEC5B1
+}
