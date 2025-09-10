@@ -1,0 +1,78 @@
+
+.header {
+    /* центр и низ изображения */
+    background: url("../img/decor/bg-header.png") 50% 100%/ cover no-repeat;
+}
+
+.header__top {
+    padding-top: 19px;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    max-width: 174px;
+    z-index: 17;
+}
+
+/* Для изображения внутри ссылки */
+.header__logo img {
+    width: 100%;
+}
+
+.nav__list {
+    display: flex;
+    gap: 4vh 40px;
+
+}
+
+.nav__item:last-child {
+    margin-right: 0px;
+}
+
+.nav__item-link {
+    z-index: 1;
+    color: var(--accent-text);
+    /* Зачем? */
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav__item-link::before {
+
+    display: block;
+    color: var(--accent-text);
+    /* Зачем? */
+    padding: 5px 0;
+
+    content: "";
+    position: absolute;
+    left: -13px;
+    top: -13px;
+    z-index: -1;
+    width: 34px;
+    height: 34px;
+
+    /* почему */
+    border-radius: 50%;
+    background: var(--orange);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.nav__item-link:hover::before {
+    opacity: 1;
+}
+
+.header-hero {
+    padding: 50px 0 140px;
+}

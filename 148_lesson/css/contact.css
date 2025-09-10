@@ -1,0 +1,135 @@
+.contact {
+    padding: 140px 0;
+    background: url("../img/decor/bg-contact.png") 50% 0%/ cover no-repeat;
+}
+
+.container {}
+
+.contact-inner {
+    display: flex;
+    align-items: end;
+    gap: 84px;
+    position: relative;
+}
+
+.contact__img::before {
+    content: url("../img/decor/berries.png");
+    position: absolute;
+    left: 0%;
+    top: -7%;
+}
+.contact__img::after {
+    content: url("../img/decor/berries-2.png");
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.contact__img img {
+    width: 100%;
+    filter: drop-shadow(0px 4px 30px 0px #C6B0A14D);
+}
+
+.contact__body {
+    max-width: 420px;
+}
+
+.contact__title {
+    margin-bottom: 20px;
+}
+
+.title {}
+
+.contact__text {
+    margin-bottom: 40px;
+}
+
+.contact__form {}
+
+.contact__lable {
+    margin-bottom: 10px;
+}
+
+
+
+.field {}
+
+.contact__input {}
+
+
+.contact__input {
+    display: block;
+    width: 100%;
+    background: #00000000;
+    border: 1px solid #AC907A;
+    border-radius: 100px;
+    padding: 19px 42px 19px 28px;
+    font-size: 16px;
+    transition: var(--transition);
+    margin-bottom: 20px;
+}
+
+.contact__input:hover {
+    border-color: var(--orange);
+}
+
+.contact__input::placeholder {
+    color: #AC907A;
+    transition: var(--transition);
+}
+
+.contact__input:hover::placeholder {
+    color: var(--orange);
+}
+
+.contact__check-label {
+    display: flex;
+    gap: 5px;
+    max-width: 288px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.contact__check-label a {
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.contact__check-label a:hover {
+    color: var(--orange)
+}
+
+.contact__checkbox {
+    appearance: none;
+    width: 16px;
+    height: 15px;
+    border: 2px solid #AC907A;
+    border-radius: 4px;
+    transition: var(--transition);
+    flex-shrink: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.contact__checkbox::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("../img/icons/check.svg") 50% 50% no-repeat;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.contact__checkbox:hover {
+    border: 2px solid var(--orange);
+}
+
+.contact__checkbox:checked {
+    border: 2px solid var(--orange);
+    background: var(--orange);
+}
+
+.contact__checkbox:checked::before {
+    border: 2px solid var(--orange);
+    background: var(--orange);
+}
