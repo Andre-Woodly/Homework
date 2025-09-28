@@ -1,0 +1,61 @@
+.block8 {
+    margin-top: 180px;
+}
+
+.block8__inner {
+    display: flex;
+    flex-direction: row;
+    gap: 234px;
+}
+
+.block8__img {
+    max-width: 416px;
+}
+
+.block8__img img {
+    width: 100%;
+}
+
+.block8__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 635px;
+}
+
+.block8__title {
+    font-family: 'Futura Md BT';
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.block8__span-title {
+    color: rgba(186, 0, 0, 1);
+}
+
+.block8__span-text {
+    font-family: 'Futura Hv BT';
+    font-weight: 900;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+
+.block8__text {
+    /* max-width: 630px; */
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.block8__button {
+    width: 198px;
+}
+
+.button {}

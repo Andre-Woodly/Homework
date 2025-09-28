@@ -1,0 +1,156 @@
+.product {
+    position: relative;
+}
+
+.product__text-bg {
+    position: absolute;
+    margin-top: 141px;
+    font-family: "Extra-Black";
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100%;
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.25;
+}
+
+.VisioModal {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.catalog {
+    margin-top: 86px;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-bottom: -30px;
+}
+
+.catalog__item {
+    border: 2px solid #fff;
+    width: 320px;
+    height: 195px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: start;
+
+
+}
+
+.catalog__item__img img {
+    max-width: 100%;
+    margin-left: 15px;
+    height: auto;
+    display: block;
+}
+
+
+.catalog__text {
+    font-family: 'Futura_LtCn';
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 32px;
+    margin-bottom: 40px;
+}
+
+
+.product__content {
+
+    max-width: 550px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+.product__content__title {
+    font-family: "Futuramdbt", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.16em;
+
+}
+
+.product__content__waller {
+    display: flex;
+    flex-direction: row;
+    gap: 164px;
+}
+
+.product__content__prise {
+    font-family: 'Futura-Hv-BT-Heavy';
+    font-weight: 900px;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.size {
+    font-family: 'Futura-Hv-BT-Heavy';
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.size__text {
+    font-family: 'futurabkbtrusbyme_book';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.product__content__size {
+    display: flex;
+    align-items: center;
+
+    font-family: 'futurabkbtrusbyme_book';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.size__text {
+    margin-right: 19px;
+}
+
+.product__content__img {
+    margin-left: 32px;
+    ;
+}
+
+.product__content__button {}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    width: 131px;
+    height: 36px;
+    border-width: 1px;
+    text-align: center;
+    justify-content: center;
+    background: none;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 36px;
+
+    font-family: 'futurabkbtrusbyme_book';
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
