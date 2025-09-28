@@ -1,0 +1,101 @@
+.block7 {
+    margin-top: 240px;
+}
+
+.block7-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 400px; */
+}
+
+.block7__content {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 676px; */
+}
+
+.block7__title {
+    font-family: 'Futura Md BT';
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 64px;
+    line-height: 100%;
+    margin-bottom: 32px;
+}
+
+.block7__text {
+
+    max-width: 618px;
+
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+
+
+
+.block7__gallery {
+    position: relative;
+}
+
+.glow2 {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgb(179 22 22 / 90%) 0%, rgba(38, 0, 0, 0%) 80%);
+    filter: blur(60px);
+    z-index: -1;
+}
+
+
+
+.block7__img-1 {
+    position: absolute;
+    left: 26px;
+    top: 33px;
+
+    width: 240px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.block7__img-1 img {
+    width: 100%;
+}
+
+.block7__img-2 {
+    position: absolute;
+    left: 300px;
+    top: 33px;
+
+    width: 320px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.block7__img-2 img {
+    width: 100%;
+}
+
+.block7__img-3 {
+    position: absolute;
+    left: 340px;
+    top: 240px;
+
+    width: 240px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.block7__img-3 img {
+    width: 100%;
+}

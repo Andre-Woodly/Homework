@@ -1,0 +1,389 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+
+
+@import "header.css";
+@import "product.css";
+@import "container3D.css";
+@import "label.css";
+@import "block2.css";
+@import "block3.css";
+@import "block4.css";
+@import "block5.css";
+@import "block6.css";
+@import "block7.css";
+@import "block8.css";
+@import "block9.css";
+@import "block10.css";
+@import "block11.css";
+
+
+@import "footer.css";
+
+
+.first-slide {
+    background: url("../img/header-bg.png") 50% 100% / cover no-repeat;
+}
+
+
+.img__vector {
+    position: absolute;
+    left: 86px;
+    top: 80px;
+}
+
+.img__vector img {
+    width: 100%;
+}
+
+.img__ez {
+    position: absolute;
+    left: -24%;
+    top: 47%;
+}
+
+
+
+.button{
+    transition: var(--transition);
+}
+
+
+.button:hover{
+    border: 1px solid #D7381F;
+    color:#D7381F;
+}
+
+.button .button__svg:hover path{
+    fill:#D7381F;
+}
+
+
+@media (max-width: 1400px) {
+    .block5-inner {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 80px;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .block5__content {
+        display: flex;
+        flex-direction: column;
+        max-width: 676px;
+        text-align: center;
+        align-items: center;
+    }
+
+    /* ====================================== */
+    .block8__inner {
+        gap: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1325px) {
+    .img__vector {
+        display: none;
+    }
+
+    .img__ez {
+        display: none;
+    }
+
+    .block4-vitrina {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 170px;
+    }
+
+    .block4__item-none {
+        display: none;
+    }
+
+    .block4__item-none {
+        display: none;
+    }
+}
+
+@media (max-width: 1255px) {
+
+    .block6-inner {
+        align-items: center;
+    }
+
+    .block6__content {
+        display: flex;
+        gap: 300px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* =============================== */
+
+    .block7-inner {
+        display: flex;
+        flex-direction: column;
+        /* gap: 400px; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .block7__content {
+        align-items: center;
+    }
+
+    /* ======================================= */
+
+    .block10__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media (max-width: 1175px) {
+    .block11-inner {
+        display: flex;
+        gap: 146px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block11__left {
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .block9__content {
+        padding: 64px 20px 65px 40px;
+    }
+
+    .block9__title {
+        font-family: 'Futura Md BT';
+        font-size: 37px;
+    }
+
+    .block9__text {
+        font-size: 19px;
+    }
+
+    .block9__img {
+        display: none;
+    }
+
+    .block9__img-big {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .burger {
+        display: block;
+        z-index: 21;
+    }
+
+    .header__nav {
+        position: fixed;
+        inset: 0;
+        z-index: 20;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+
+        background: rgba(186, 0, 0, 0.85);
+        /* "плёнка" */
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-8%);
+        transition: opacity .28s ease, transform .28s ease, visibility .28s;
+        pointer-events: none;
+        /* не ловим клики, пока скрыто */
+    }
+
+    /* показываем меню когда класс на body */
+    body.body--opened-menu .header__nav {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+
+    /* стиль ссылок */
+    .header__nav__item a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 22px;
+        padding: 8px 12px;
+    }
+
+    /* чтобы при открытом меню не скроллить бэкграунд */
+    body.body--opened-menu {
+        overflow: hidden;
+    }
+
+    /* ==============1======================================== */
+    .header__img {
+        margin-left: 100px;
+    }
+
+    .product__text-bg {
+        position: absolute;
+        margin-top: 10px;
+        font-family: "Extra-Black";
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 120%;
+        background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0.25;
+    }
+
+    .product__content {
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .VisioModal {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .catalog {
+        margin-top: 86px;
+        display: flex;
+        gap: 40px;
+        margin-bottom: -30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .catalog__item {
+        border: 2px solid #fff;
+        width: 320px;
+        height: 195px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .catalog__item__img img {
+        margin-left: 0px;
+    }
+
+    .catalog__text {
+        margin-left: 0px;
+    }
+
+    /* ==================================== */
+
+    .block4-vitrina {
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+
+@media (max-width: 947px) {
+    .block11__grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "item1 item2"
+            "item4 item5"
+            "item3 item3";
+    }
+
+    .block11__grid> :nth-child(1) {
+        grid-area: item1;
+    }
+
+    .block11__grid> :nth-child(2) {
+        grid-area: item2;
+    }
+
+    .block11__grid> :nth-child(3) {
+        grid-area: item3;
+        justify-self: center;
+        /* центрирует контент внутри ячейки */
+    }
+
+    .block11__grid> :nth-child(4) {
+        grid-area: item4;
+    }
+
+    .block11__grid> :nth-child(5) {
+        grid-area: item5;
+    }
+}
+
+@media (max-width: 800px) {
+    .block3__humans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 525px) {
+    .block11__grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .footer-inner {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width:415px) {
+    .block9__content {
+        padding: 25px 20px 26px 20px;
+    }
+
+    .block9__title {
+        font-family: 'Futura Md BT';
+        font-size: 27px;
+    }
+
+    .block9__text {
+        font-size: 16px;
+    }
+}

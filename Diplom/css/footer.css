@@ -1,0 +1,39 @@
+.footer {
+    margin-top: 80px;
+    margin-bottom: 8px;
+}
+
+
+.footer-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+
+    font-family: 'Futura Bk BT';
+    font-weight: 400;
+    font-style: Book;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: capitalize;
+
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.youtube {}
+
+.face {}
+
+.twity {}
+
+.inst {}
